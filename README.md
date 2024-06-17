@@ -6,7 +6,7 @@ BaggingClassifier with XGBoostClassifier as the base estimator
 * Tackled the feature columns' missing values.
 * Addressed the taget variables' class imbalance. 
 * Two separate models are instantiated using BaggingClassifier with XGBoostClassifier as the base estimator for each target variable.
-* Implemented hyperparameter tuning using Stratified RandomSearchCV.
+* Implemented hyperparameter tuning using Stratified RandomizedSearchCV.
 * The best hyperparameters are directly used in the [code](https://github.com/Dream-Falls/AnalyticaX/blob/main/source_code.ipynb).
 * Utilizes ROC AUC for evaluation within each model. Additionally, we calculated an overall ROC AUC by combining both models' predictions, providing a comprehensive assessment of performance.
 ## Results
