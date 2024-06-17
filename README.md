@@ -1,6 +1,7 @@
 # Predicting Probabilities of XYZ and Seasonal Vaccination Uptake
 
 This project focuses on predicting the probabilities of individuals receiving xyz and seasonal influenza vaccinations using machine learning techniques.
+## Model Used
 BaggingClassifier with XGBoostClassifier as the base estimator
 ## Key Points
 * Tackled the feature columns' missing values.
